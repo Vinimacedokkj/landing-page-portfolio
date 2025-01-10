@@ -11,12 +11,12 @@
 :root {
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
+    --color-black: #000000;
     --color-gray1: #3d4143;
     --color-gray2: #9c9d9d;
     --color-white: #f6f6f6;
-    --color-destaque1: #e7fc00;
-    --color-destaque2: #728e6f;
+    --color-destaque1: #f0ff4c;
+    --color-destaque2: #34865f;
 }
 
 /* Estilizando a barra de rolagem */
@@ -150,7 +150,9 @@ a {
 }
 
 .logo img {
-    width: 150px;
+    margin-left: 5px;
+    width: 85px;
+
 }
 
 /* Menu */
@@ -295,7 +297,7 @@ a {
 }
 
 .paragrafo-inicio p {
-    font-size: clamp(1.2rem, 1.5vw + 1rem, 2rem);
+    font-size: clamp(1.2rem, 1.5vw + 0.1rem, 2rem);
     max-width: 900px;
     color: var(--color-gray2);
     font-family: var(--font-pequena);
@@ -376,7 +378,8 @@ a {
 }
 
 .complemento-inicio .text {
-    width: 200px;
+    width: 60px;
+    height: auto;
 }
 
 .complemento-inicio .qr-code {
