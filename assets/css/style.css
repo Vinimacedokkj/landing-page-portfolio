@@ -530,7 +530,7 @@ a {
 
 .imagem-sobre {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     position: absolute;
 }
@@ -542,8 +542,8 @@ a {
 
 .complemento-sobre img {
     position: relative;
-    left: 50px;
-    top: 50px;
+    left: 35px;
+    /* top: 50px; */
     width: 90%;
     z-index: 1000;
     animation: rotate 20s linear infinite;
