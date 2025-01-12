@@ -740,7 +740,7 @@ a {
 
 .card-titulo {
     width: 68%;
-    font-size: clamp(0.8rem, 2.5vw + .4rem, 2rem);
+    font-size: clamp(0.8rem, 2.5vw + .4rem, 1.3rem);
     font-family: var(--font-pequena);
     font-weight: normal;
 }
